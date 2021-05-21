@@ -1,0 +1,32 @@
+
+The EMB model is a model I built during my first employment with KETS in order to 
+expedite the design process of cogeneration plants in sugar factories. I made it to
+study the optimum (in terms of costs and mechanical performance)set up and main 
+parameters (e.g. boiler pressure and temperature). I was planning to incorporate 
+the economic aspects of the design (e.g. prices, fixed costs, running costs, 
+depreciation, etc.) to make a thermo-economic model that helps in selecting the most 
+feasible decisions, but unfortunately there was no available data.
+
+
+Notes:
+In order to be able to run the model properly, you have to add steam properties 
+formulas as an add-in in your excel. To do so, please follow the steps below:
+ 1- place the folder (EMB Model) in Desktop
+ 2- open any Excel file and go to File -> Options -> Add-Ins
+ 3- click on "Go" button next to "Manage", and make sure that "add-ins" is 
+selected in the drop down list is
+ 4- click "browse" and go to the folder in the Desktop and choose Steam_Tables then click OK
+ 5-check the box of steam_tables.
+ 6- now open the file (EMB Model) and click on continue. don’t click on edit links.
+ 6- click on "find and select" in Home tab in the ribbon, select “replace”
+ 7- copy this text:  'C:\Users\Ahmed\Desktop\EMB Model\Steam_Tables.xlam'!    and paste it in "find what" textbox
+leave "replace with" blank and click on "replace all" then ok. Now the sheet should work properly. 
+If you there is nothing to replace then the sheet is already OK.
+
+
+
+
+
+
+
+
